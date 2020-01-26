@@ -1,12 +1,12 @@
 package com.company;
 
-import com.company.difficult.P866.RuleLimit;
+import com.company.simple.P81;
 
 public class Main {
 
 	public static void main(String[] args) {
 		long time = System.currentTimeMillis();
-		System.out.println(new RuleLimit().primePalindrome(10786570));
+		System.out.println(new P81().search(new int[]{4,5,6,7,0,1,2}, 0));
 		System.out.println("time: " + (System.currentTimeMillis() - time));
 	}
 }
